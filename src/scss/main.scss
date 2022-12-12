@@ -42,9 +42,15 @@ video {
 h1 {
   font-family: "Museo Slab";
   font-size: 59px;
+  font-weight: 700;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
+h2 {
+  font-family: "Museo Slab";
+}
 a {
   text-decoration: none;
   font-family: "Museo Slab";
@@ -52,9 +58,16 @@ a {
   font-weight: 600;
 }
 
+ul {
+  list-style: none;
+}
 p {
   font-family: "Museo Slab";
   font-size: 24px;
+}
+
+img {
+  width: 100%;
 }
 /* ====================================
 // base rules
@@ -62,7 +75,7 @@ p {
 
 @import "bootstrap/scss/bootstrap-grid";
 
-.row + .row {
+/*.row + .row {
   margin-top: 16px;
 }
 
@@ -72,4 +85,4 @@ p {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
-}
+} */
