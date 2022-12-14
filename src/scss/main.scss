@@ -136,6 +136,8 @@ img {
   padding: 6px 10px;
   justify-content: space-between;
   margin-bottom: 20px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .menu-button {
@@ -148,18 +150,21 @@ img {
 }
 
 .dessert-img {
-  max-width: 100%px;
+  max-width: 100%;
 }
 
 .menu-container col-md-2 {
   display: flex;
-  justify-content: center;
 }
 
 .menu-title-drinks {
   padding-top: 60px;
 }
 
+footer {
+  background-color: beige;
+  margin-top: 80px;
+}
 /* ====================================
 // base rules
 // ==================================== */
