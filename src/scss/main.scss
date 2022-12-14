@@ -34,6 +34,7 @@ a {
 
 .bg-img {
   background-image: url("../img/header-img.png");
+  background-repeat: no-repeat;
 }
 
 img,
@@ -71,22 +72,32 @@ h2 {
   font-weight: 600;
 }
 
+.menu-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
 a {
   text-decoration: none;
   font-family: "Museo Slab";
   font-weight: 600;
-  display: flex;
-  justify-content: center;
 }
 
 h3 {
   font-family: "Museo slab";
   font-size: 25px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 ul {
   list-style: none;
+}
+
+li {
+  padding-bottom: 5px;
 }
 
 .drink-name {
@@ -99,6 +110,10 @@ ul {
   font-size: 19px;
 }
 
+.drink-price li {
+  text-align: right;
+  padding-right: 0.6em;
+}
 .menu-container {
   padding: 15px;
 }
@@ -117,10 +132,34 @@ img {
 .button {
   background: #d8d8d8;
   border-radius: 25px;
-  font-size: 25px;
-  width: 110px;
-  height: 35px;
+  font-size: 20px;
+  padding: 6px 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dessert-img {
+  max-width: 100%px;
+}
+
+.menu-container col-md-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-title-drinks {
+  padding-top: 60px;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
