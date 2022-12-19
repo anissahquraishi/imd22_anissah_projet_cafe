@@ -33,7 +33,7 @@ a {
 }
 
 .bg-img {
-  background-image: url("../img/header-img.png");
+  background-image: url("../img/coffee-shop-header-bg.jpg");
   background-repeat: no-repeat;
 }
 
@@ -110,6 +110,10 @@ li {
   font-size: 19px;
 }
 
+.col-md-6 {
+  display: inline;
+  justify-content: center;
+}
 .drink-price li {
   text-align: right;
   padding-right: 0.6em;
@@ -123,10 +127,6 @@ p {
   font-size: 24px;
   padding-top: 36px;
   padding-bottom: 36px;
-}
-
-img {
-  width: 100%;
 }
 
 .button {
