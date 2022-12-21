@@ -94,6 +94,17 @@ h3 {
   padding-bottom: 20px;
 }
 
+span {
+  font-family: Times;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fbab00;
+  letter-spacing: -1.23px;
+  text-align: center;
+  line-height: 45px;
+}
 ul {
   list-style: none;
 }
@@ -125,10 +136,12 @@ li {
 }
 
 p {
-  font-family: "Museo Slab";
-  font-size: 24px;
+  font-family: "Raleway";
+  font-size: 30px;
   padding-top: 36px;
   padding-bottom: 36px;
+  text-transform: uppercase;
+  color: #fbab00;
 }
 
 .button {
