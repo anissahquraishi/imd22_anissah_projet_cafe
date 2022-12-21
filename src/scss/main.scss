@@ -28,26 +28,10 @@ body {
   line-height: 1.25;
 }
 
-a {
-  color: inherit;
-}
-
-.bg-img {
-  background-image: url("../img/coffee-shop-header-bg.jpg");
-  width: 100%;
-  height: 5;
-}
-
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
-}
-
 .header {
   height: 668px;
   font-size: 40px;
+  background-color: #ff94ce;
 }
 
 .menu {
@@ -58,40 +42,46 @@ video {
 }
 
 h1 {
-  font-family: "Museo Slab";
+  font-family: "Times";
   font-size: 59px;
   font-weight: 700;
   color: white;
   display: flex;
   justify-content: center;
-  padding-top: 115px;
-  padding-bottom: 106px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
-  font-family: "Museo Slab";
+  font-family: "raleway";
   font-size: 49px;
   font-weight: 600;
+  color: #fbab00;
+  padding-bottom: 50px;
 }
 
 .menu-title {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
 }
+
 a {
   text-decoration: none;
-  font-family: "Museo Slab";
+  font-family: "Raleway";
   font-weight: 600;
+  color: inherit;
 }
 
 h3 {
-  font-family: "Museo slab";
+  font-family: "raleway";
   font-size: 25px;
   font-weight: 500;
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  color: #fbab00;
 }
 
 span {
@@ -145,7 +135,7 @@ p {
 }
 
 .button {
-  background: #d8d8d8;
+  background: #ff94ce;
   border-radius: 25px;
   font-size: 20px;
   padding: 6px 10px;
@@ -153,6 +143,7 @@ p {
   margin-bottom: 20px;
   display: block;
   margin-bottom: 10px;
+  color: azure;
 }
 
 .menu-button {
@@ -177,9 +168,13 @@ p {
 }
 
 footer {
-  background-color: beige;
   margin-top: 80px;
 }
+
+img {
+  width: 100%;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
